@@ -5,27 +5,6 @@
 #include <sstream>
 using namespace std;
 
-/*
-Avaliação
-Processamento do Arquivo de Entrada: 0,60 (faltou o teste do arquivo com menos de 3 linhas, bem como informar dos erros encontrados)
-Execução correta: 0,5 (não faz o cálculo do valor que foi ganhado/perdido pelo usuário, os números de cada rodada são os mesmos)
-Interfcace Textual: 1
-Documentação: 1
-Compilação automatizada: 0,8 (makefile não gera binários no bin)
-Organização em src, include, build, data: 1
-
-Comentários
-- Arrumei o makefile para gerar os arquivos no local correto, depois deem uma olhada
-- Vocês poderiam organizar o programa em mais classes, pelo menos 2, uma para processar e validar o arquivo de entrada
-e outra para imprimir e processar a interface textual.
-- Boa parte dos erros do arquivo de apostas: strings no lugar de números, número valores apostados, valores à cima de 80 são simplesmente
-ignorados sem qualquer aviso, removi alguns pontos por isso.
-- Vi que vocês não deram commit na solução para que os números sorteados modificassem a medida que o programa executa. Como conversamos
-na entrevista, na classe KenoBet, método vec_rand, vocês colocaram srand(time(null)), que basicamente reseta o rand com uma nova seed.
-No entanto, se o tempo entre os resets for muito curto os números sorteados nas chamadsa de rand acabam sendo os mesmos. A solução é usar
-srand no começo do programa (ou apenas uma vez no código), ou não usar ele...
-*/
-
 int main(int argc, char const *argv[]){
 
 
