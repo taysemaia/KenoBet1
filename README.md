@@ -30,11 +30,6 @@ Lembrando que o arquivo de entrada segue o formato:
 
 *Conjunto de até 15 números inteiros únicos em qualquer ordem separados por espaço (chamado de spots).
 
-# Dificuldades e Limitações:
-
-###### As dificuldades da dupla se resumem:
-    * Conciliar tantos assuntos;
-
 ##### Funcionalidades não realizadas:
 
     * Comparação de entrada do arquivo com o vetor aleatorio;
